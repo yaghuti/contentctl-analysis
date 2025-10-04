@@ -1,0 +1,15 @@
+digraph inheritance {
+  "pydantic.BaseModel" -> "SecurityContentObject_Abstract";
+  "SecurityContentObject_Abstract" -> "SecurityContentObject";
+  "SecurityContentObject" -> "Detection_Abstract";
+  "Detection_Abstract" -> "Detection";
+  "SecurityContentObject" -> "Story";
+  "SecurityContentObject" -> "Baseline";
+  "SecurityContentObject" -> "Investigation";
+  "SecurityContentObject" -> "Macro";
+  "SecurityContentObject" -> "Dashboard";
+  "SecurityContentObject" -> "Deployment";
+  "Lookup" -> "CSVLookup";
+  "Lookup" -> "KVStoreLookup";
+  "Lookup" -> "MlModel";
+}
