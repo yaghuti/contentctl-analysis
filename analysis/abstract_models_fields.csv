@@ -1,0 +1,8 @@
+Class,MemberType,Name,Type,Default,StartLine,EndLine,Behavior/Description,ExactErrorMessage,UsedBy
+SecurityContentObject_Abstract,field,name,str,,"478","478","Content name; max_length=99","",Director/ConfWriter/ApiJsonOutput/templates
+SecurityContentObject_Abstract,field,author,str,,"479","479","Author string; max_length=255","",Director/ApiJsonOutput
+SecurityContentObject_Abstract,field,date,datetime.date,,"480","480","Date field","",Director/ApiJsonOutput
+SecurityContentObject_Abstract,field,version,NonNegativeInt,,"481","481","Version number","",Director/ApiJsonOutput
+SecurityContentObject_Abstract,field,id,uuid.UUID,,"482","482","UUID for content","",Director/ApiJsonOutput
+SecurityContentObject_Abstract,field,description,str,,"483","483","Long description; max_length=10000","",ConfWriter/templates/ApiJsonOutput
+SecurityContentObject_Abstract,field,file_path,Optional[FilePath],None,"484","484","Optional file path to source YML","If file_path is provided and does not end with .yml: "All Security Content Objects must be YML files and end in .yml.  The following file does not: '{v}'","Director validation (Yml -> model)"

@@ -1,0 +1,5 @@
+component,location,description
+ConfOutput.__init__,contentctl/output/conf_output.py:29-40,Creates package directory and copies template files into package
+ConfWriter.writeConfFileHeader,contentctl/output/conf_writer.py:121-134,Writes header and validates conf file
+Build.execute (app),contentctl/actions/build.py:20-60,Coordinates writing conf files and packaging app
+Build.execute (api),contentctl/actions/build.py:62-98,Cleans api path and writes json api outputs and version file

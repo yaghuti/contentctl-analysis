@@ -1,0 +1,12 @@
+{ 
+  "snapshot_time": "2025-10-04T20:28:53Z",
+  "source_repo_commit": "b4e2aa4a3c39ac61f3652991016bdf89c9d4958e",
+  "files_analyzed": [
+    "contentctl/actions/build.py",
+    "contentctl/output/conf_output.py",
+    "contentctl/output/conf_writer.py",
+    "contentctl/output/api_json_output.py",
+    "contentctl/input/director.py",
+    "contentctl/objects/abstract_security_content_objects/security_content_object_abstract.py"
+  ]
+}
