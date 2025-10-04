@@ -1,0 +1,18 @@
+analysis_files:
+  - path: analysis/inheritance_mapping.csv
+    description: "Parent-child mapping of key classes and relation to source files (with line ranges)."
+    created_at: "2025-10-04T20:05:40Z"
+    sources:
+      - url: "https://github.com/yaghuti/contentctl/blob/b4e2aa4a3c39ac61f3652991016bdf89c9d4958e/contentctl/objects/abstract_security_content_objects/security_content_object_abstract.py"
+        lines: "1-889"
+      - url: "https://github.com/yaghuti/contentctl/blob/b4e2aa4a3c39ac61f3652991016bdf89c9d4958e/contentctl/objects/detection.py"
+        lines: "1-21"
+  - path: analysis/abstract_models_fields.csv
+    description: "Extracted key fields, validators and notable behaviors from abstract/base models."
+    created_at: "2025-10-04T20:05:40Z"
+    sources:
+      - url: "https://github.com/yaghuti/contentctl/blob/b4e2aa4a3c39ac61f3652991016bdf89c9d4958e/contentctl/objects/abstract_security_content_objects/security_content_object_abstract.py"
+        lines: "476-889"
+  - path: analysis/contentctl_conversation_knowledge.json
+    description: "Exported session notes and provenance for the files processed during this session."
+    created_at: "2025-10-04T20:05:40Z"
